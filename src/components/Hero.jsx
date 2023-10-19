@@ -1,8 +1,11 @@
 import React from 'react';
+import ParticleBackground from "./ParticleBackground.js";
 
 function Hero() {
     return (
+
         <div className="bg-red-500 text-white min-h-screen flex items-center">
+            <ParticleBackground />
             <div className="container mx-auto text-center">
                 <h1 className="text-4xl font-bold mb-4">
                     Elevate Your Brand with Creativity
@@ -21,6 +24,7 @@ function Hero() {
                 </a>
             </div>
         </div>
+
     );
 }
 
