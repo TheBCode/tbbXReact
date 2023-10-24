@@ -2,9 +2,9 @@ import React from "react";
 
 function AboutMe() {
     return (
-        <div className="container mx-auto text-center" id="whoAmI">
-            <div className="flex flex-row">
-                <div className="flex flex-col space-y-20 my-20 ">
+        <div className="container flex mx-auto min-h-screen items-center" id="whoAmI">
+            <div className="flex">
+                <div className="flex flex-col space-y-10">
                     <p className="text-lg">"Welcome to The Buyck Brand, where creativity knows no bounds. I'm your one-stop powerhouse for web development, captivating design, and soul-stirring sound production. I don't just wear many hats; I custom-tailor each one to perfection.
                     </p>
                     <p className="text-lg mt-4">
